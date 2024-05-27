@@ -1,0 +1,31 @@
+
+> my-storybook-app@0.1.0 build-storybook
+> storybook build --output-dir C:\Users\Sistemas\AppData\Local\Temp\chromatic--2232-hI4dTzrfiIlP
+
+@storybook/cli v8.1.1
+
+info => Cleaning outputDir: ..\..\..\..\Users\Sistemas\AppData\Local\Temp\chromatic--2232-hI4dTzrfiIlP
+info => Loading presets
+info Found existing addon "@storybook/addon-docs", skipping.
+info Found existing addon "@storybook/addon-controls", skipping.
+info Found existing addon "@storybook/addon-docs", skipping.
+info Found existing addon "@storybook/addon-controls", skipping.
+info => Building manager..
+info => Manager built (450 ms)
+info => Building preview..
+info => Loading Webpack configuration from `node_modules\react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info => Using default Webpack5 setup
+info => Copying static files: public at ..\..\..\..\Users\Sistemas\AppData\Local\Temp\chromatic--2232-hI4dTzrfiIlP
+WARN [eslint] 
+WARN src\components\Button.stories.js
+WARN   Line 23:14:  The story should use PascalCase notation: myStory  storybook/prefer-pascal-case
+WARN 
+WARN 
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   7.8989d7da.iframe.bundle.js (514 KiB)
+info => Preview built (9.1 s)
+info => Output directory: C:\Users\Sistemas\AppData\Local\Temp\chromatic--2232-hI4dTzrfiIlP
